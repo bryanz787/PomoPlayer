@@ -1,5 +1,6 @@
 import { CircularProgressbar, buildStyles} from 'react-circular-progressbar';
 import 'react-circular-progressbar/dist/styles.css';
+import PlayButton from './PlayButton';
 
 const red = '#d92314';
 const green = '#3c913d';
