@@ -1,10 +1,15 @@
 import './App.css';
+import Settings from './SettingsPage';
 import Timer from './Time';
+import { useState } from 'react';
 
 function App() {
+
+  const [showSettings, setShowSettings] = useState(false);
+
   return (
     <main>
-      <Timer />
+      {showSettings ? <Settings /> : <Timer />}
     </main>
   );
 }
