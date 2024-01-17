@@ -5,8 +5,8 @@
 
 
 body {
-  background-color: #dce3de;
-  color: #4f4342;
+  background-color: #30384b;
+  color: #eee;
 }
 
 main{
@@ -18,7 +18,7 @@ main{
 
 button {
   background-color: transparent;
-  color: rgb(128, 138, 128);
+  color: rgba(255, 255, 255, 0.8);
   border: 0;
   display: inline-block;
   width: 85px;
@@ -26,15 +26,15 @@ button {
 
 button.with-text{
   width:auto;
-  background-color: rgba(255, 255, 255, 0.4);
+  background-color: rgba(255, 255, 255, 0.1);
   border-radius: 10px;
   padding: 10px 20px;
-  font-size: 1.5rem;
+  font-size: 1.4rem;
   line-height: 36px;
 }
 
 button.with-text svg{
-  width: 35px;
+  width: 36px;
   float: left;
   margin-right: 5px;
 }
