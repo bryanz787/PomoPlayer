@@ -2,12 +2,12 @@
 
 ### Description and Credits:
 
-A bare-bones pomodoro study method timer created in React. This project aims to give the user access to a cutomizeable browser based pomodoro timer while simultaneously providing the user with a selection of lofi study music to study with at their disposal.
+A simplified pomodoro study method timer created in React. This project aims to give the user access to a cutomizeable browser based pomodoro timer while simultaneously providing the user with a selection of lofi study music to study with at their disposal.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-Adapted from resources and tips from CodingWithDawid.\n
-Icons and visual elements adapted from heroicons.com\n
+Adapted from resources and tips from CodingWithDawid.  
+Icons and visual elements adapted from heroicons.com  
 Circular progress bar courtesy of kevinsqi (Github: https://github.com/kevinsqi/react-circular-progressbar)
 
 ### Credit for audio resources used in this project:
