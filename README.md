@@ -6,9 +6,9 @@ A bare-bones pomodoro study method timer created in React. This project aims to 
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-Adapted from resources and tips from CodingWithDawid.
-Icons and visual elements adapted from heroicons.com
-Circular progress bar courtesy of kevinsqi (Github: https://github.com/kevinsqi/react-circular-progressbar#readme)
+Adapted from resources and tips from CodingWithDawid.\n
+Icons and visual elements adapted from heroicons.com\n
+Circular progress bar courtesy of kevinsqi (Github: https://github.com/kevinsqi/react-circular-progressbar)
 
 ### Credit for audio resources used in this project:
 
