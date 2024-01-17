@@ -1,70 +1,39 @@
-# Getting Started with Create React App
+# PomoPlayer
+
+### Description and Credits:
+
+A bare-bones pomodoro study method timer created in React. This project aims to give the user access to a cutomizeable browser based pomodoro timer while simultaneously providing the user with a selection of lofi study music to study with at their disposal.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+Adapted from resources and tips from CodingWithDawid.
+Icons and visual elements adapted from heroicons.com
+Circular progress bar courtesy of kevinsqi (Github: https://github.com/kevinsqi/react-circular-progressbar#readme)
 
-In the project directory, you can run:
+### Credit for audio resources used in this project:
 
-### `npm start`
+Adrift Among Infinite Stars by Scott Buckley | www.scottbuckley.com.au
+Music promoted by https://www.chosic.com/free-music/all/
+Creative Commons CC BY 4.0
+https://creativecommons.org/licenses/by/4.0/
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Lost and Found by Purrple Cat | https://purrplecat.com/
+Music promoted by https://www.chosic.com/free-music/all/
+Creative Commons CC BY-SA 3.0
+https://creativecommons.org/licenses/by-sa/3.0/
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Morning Routine by Ghostrifter Official | https://soundcloud.com/ghostrifter-official
+Music promoted by https://www.chosic.com/free-music/all/
+Creative Commons CC BY-SA 3.0
+https://creativecommons.org/licenses/by-sa/3.0/
 
-### `npm test`
+Silent Wood by Purrple Cat | https://purrplecat.com/
+Music promoted by https://www.chosic.com/free-music/all/
+Creative Commons CC BY-SA 3.0
+https://creativecommons.org/licenses/by-sa/3.0/
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Storm Clouds by Purrple Cat | https://purrplecat.com/
+Music promoted by https://www.chosic.com/free-music/all/
+Creative Commons CC BY-SA 3.0
+https://creativecommons.org/licenses/by-sa/3.0/
+ 
