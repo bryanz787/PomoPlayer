@@ -16,7 +16,7 @@ const red = '#d92314';
 const green = '#3c913d';
 
 function Timer() {
-    const audios = [AAIS, LAF, MR, SW, SC];
+    const audios = [AAIS, LAF, MR, SW, SC]; // default song library
 
     const settingsInfo = useContext(SettingsContext);
 
@@ -24,7 +24,7 @@ function Timer() {
     const [mode, setMode] = useState('work');
     const [secondsLeft, setSecondsLeft] = useState(0);
     const [play, setPlay] = useState(true);
-    const [songCounter, setSongCounter] = useState(Math.floor(Math.random() * audios.length)); //starts from random track out of assortment
+    const [songCounter, setSongCounter] = useState(Math.floor(Math.random() * audios.length)); //Starts from random track out of assortment
 
     const secondsLeftRef = useRef(secondsLeft);
     const isPausedRef = useRef(isPaused);
@@ -32,7 +32,7 @@ function Timer() {
 
     const audioRef = useRef(new Audio(audios[songCounter % audios.length]));
 
-    function switchMode() {
+    function switchMode() { // helper to for timer updates
         const nextMode = modeRef.current === 'work' ? 'break' : 'work';
         const nextSeconds = (nextMode === 'work' ? settingsInfo.workMinutes : settingsInfo.breakMinutes) * 60;
         
@@ -53,7 +53,7 @@ function Timer() {
         setSecondsLeft(secondsLeftRef.current);
     }
 
-    useEffect(() => {
+    useEffect(() => { //updates timer without re-rendering app, provides website state updates
         initTimer();
 
         const interval = setInterval(() => {
@@ -71,7 +71,7 @@ function Timer() {
         return () => clearInterval(interval);
     }, [settingsInfo]);
 
-    useEffect(() => {
+    useEffect(() => { //updates background music selections such that audio will switch from one track to the next when a song ends
         audioRef.current.addEventListener('ended', () => {
             setSongCounter((prevCounter) => prevCounter + 1); // Switch to the next song when the audio ends
             audioRef.current.src = audios[songCounter % audios.length]; // Update the source to the next song
