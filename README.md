@@ -2,7 +2,7 @@
 
 ### Description and Credits:
 
-A simplified pomodoro study method timer created in React. This project aims to give the user access to a cutomizeable browser based pomodoro timer while simultaneously providing the user with a selection of lofi study music to study with at their disposal.
+A simplified pomodoro study method timer created in React. This project aims to give the user access to a cutomizeable browser based pomodoro timer while simultaneously providing the user with a selection of free-use lofi study music to study with at their disposal.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
