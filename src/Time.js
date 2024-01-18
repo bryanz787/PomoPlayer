@@ -23,7 +23,7 @@ function Timer() {
     const [isPaused, setIsPaused] = useState(true);
     const [mode, setMode] = useState('work');
     const [secondsLeft, setSecondsLeft] = useState(0);
-    const [play, setPlay] = useState(false);
+    const [play, setPlay] = useState(true);
     const [songCounter, setSongCounter] = useState(Math.floor(Math.random() * audios.length)); //starts from random track out of assortment
 
     const secondsLeftRef = useRef(secondsLeft);
@@ -118,6 +118,7 @@ function Timer() {
                         }
                         setPlay((prev) => !prev);
                     }}
+                    isPlaying = {play}
                 />
             </div>
         </div>
